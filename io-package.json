@@ -1,0 +1,104 @@
+{
+    "common": {
+        "name": "co2mini",
+        "version": "1.0.0",
+        "news": {
+            "1.0.0": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Co2mini",
+        "titleLang": {
+            "en": "Co2mini",
+            "de": "Co2mini",
+            "ru": "Co2mini",
+            "pt": "Co2mini",
+            "nl": "Co2mini",
+            "fr": "Co2mini",
+            "it": "Co2mini",
+            "es": "Co2mini",
+            "pl": "Co2mini",
+            "zh-cn": "空气二氧化碳"
+        },
+        "desc": {
+            "en": "Reads Co2 Sensors like TFA-Dostmann AirCO2ntrol or similar with USB ID 04d9:a052",
+            "de": "Liest CO2-Sensoren wie TFA-Dostmann AirCO2ntrol oder ähnliche mit USB-ID 04d9:a052",
+            "ru": "Читает датчики Co2, такие как TFA-Dostmann AirCO2ntrol или аналогичные с USB ID 04d9:a052",
+            "pt": "Lê sensores de CO2 como TFA-Dostmann AirCO2ntrol ou similar com USB ID 04d9:a052",
+            "nl": "Leest Co2-sensoren zoals TFA-Dostmann AirCO2ntrol of vergelijkbaar met USB ID 04d9:a052",
+            "fr": "Lit les capteurs de CO2 tels que TFA-Dostmann AirCO2ntrol ou similaire avec USB ID 04d9:a052",
+            "it": "Legge sensori di CO2 come TFA-Dostmann AirCO2ntrol o simili con ID USB 04d9:a052",
+            "es": "Lee sensores de Co2 como TFA-Dostmann AirCO2ntrol o similar con USB ID 04d9:a052",
+            "pl": "Odczytuje czujniki Co2 jak TFA-Dostmann AirCO2ntrol lub podobny z USB ID 04d9:a052",
+            "zh-cn": "读取TFA-Dostmann AirCO2ntrol等二氧化碳传感器或类似的USB ID 04d9:a052"
+        },
+        "authors": [
+            "bowao <cryolab@web.de>"
+        ],
+        "keywords": [
+            "airco2ntrol",
+            "co2-monitor",
+            "co2mini",
+            "TFA-Dostmann"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "co2mini.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/bowao/ioBroker.co2mini/master/admin/co2mini.png",
+        "readme": "https://github.com/bowao/ioBroker.co2mini/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "hardware",
+        "compact": true,
+        "materialize": true,
+        "materializeTab": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "usb": true,
+        "server": false,
+        "ip": "0.0.0.0",
+        "port": 33333
+    },
+    "objects": [],
+    "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "If connected",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+
+  ]
+
+}

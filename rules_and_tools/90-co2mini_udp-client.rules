@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", KERNEL=="hidraw*", ATTRS{idVendor}=="04d9", ATTRS{idProduct}=="a052", GROUP="plugdev", SYMLINK+="co2mini"
