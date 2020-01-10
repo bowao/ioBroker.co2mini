@@ -9,7 +9,7 @@
 const utils = require('@iobroker/adapter-core');
 
 // Load your modules here, e.g.:
-const Co2Monitor = require('co2-monitor');
+const Co2Monitor = require('./lib/co2-monitor');
 const dgram = require('dgram');
 
 class co2mini extends utils.Adapter {

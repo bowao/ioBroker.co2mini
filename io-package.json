@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "co2mini",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "news": {
+            "1.0.1": {
+                "en": "dependencies updated to usb 1.6.x.",
+                "de": "abhängigkeiten aktualisiert auf usb 1.6.x.",
+                "ru": "обновлены зависимости до usb 1.6.x.",
+                "pt": "dependências atualizadas para usb 1.6.x.",
+                "nl": "afhankelijkheden bijgewerkt naar usb 1.6.x.",
+                "fr": "dépendances mises à jour en usb 1.6.x.",
+                "it": "dipendenze aggiornate a usb 1.6.x.",
+                "es": "dependencias actualizadas a usb 1.6.x.",
+                "pl": "Zależności zaktualizowane do USB 1.6.x.",
+                "zh-cn": "依赖项已更新为USB1.6.x。"
+            },
             "1.0.0": {
                 "en": "initial release",
                 "de": "Erstveröffentlichung",

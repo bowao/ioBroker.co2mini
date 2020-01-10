@@ -1,6 +1,6 @@
 {
   "name": "iobroker.co2mini",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reads Co2 Sensors like TFA-Dostmann AirCO2ntrol or similar with USB ID 04d9:a052",
   "author": {
     "name": "bowao",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@iobroker/adapter-core": "^1.0.3",
-    "co2-monitor": "^2.0.0"
+    "usb": "^1.6.0"
   },
   "devDependencies": {
     "@iobroker/testing": "^1.2.6",

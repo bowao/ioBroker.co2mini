@@ -91,10 +91,10 @@ Add the following line at the end:
     * * * * * $HOME/watchdog_co2mini.sh >/dev/null 2>&1
 
 Save the changes:   
-In the Raspian default text editor "nano": Press "Ctrl" and "o" simultaneously, then confirm the query of the file name with return.
+In the Raspbian default text editor "nano": Press "Ctrl" and "o" simultaneously, then confirm the query of the file name with return.
 
 Finally exit the editor:   
-In the Raspian default text editor "nano": Press "Ctrl" and "x" simultaneously.
+In the Raspbian default text editor "nano": Press "Ctrl" and "x" simultaneously.
 
 ---
 
@@ -191,7 +191,7 @@ Am Ende folgende Zeile hinzufügen:
     * * * * * $HOME/watchdog_co2mini.sh >/dev/null 2>&1
 
 Die Änderung speichern:   
-Im Raspian Standard Text-Editor "nano": Gleichzeitig "Strg" und "o" drücken, dann die Abfrage des Dateinamens mit return bestätigen.
+Im Raspbian Standard Text-Editor "nano": Gleichzeitig "Strg" und "o" drücken, dann die Abfrage des Dateinamens mit return bestätigen.
 
 Schließlich den Editor beenden:   
-Im Raspian Standard Text-Editor "nano": Gleichzeitig „Strg“ und „x“ drücken.
+Im Raspbian Standard Text-Editor "nano": Gleichzeitig „Strg“ und „x“ drücken.

@@ -6,7 +6,7 @@
 
 This Adapter supports the Co2-Mini sensor with USB ID 04d9:a052, it can be found under different product names. E.g. [TFA-Dostmann Airco2ntrol mini](https://www.tfa-dostmann.de/produkt/co2-monitor-airco2ntrol-mini-31-5006/) or [Co2Mini by co2meter.com](https://www.co2meter.com/products/co2mini-co2-indoor-air-quality-monitor).
 
-The ioBroker-Adapter uses the npm packet [co2-monitor](https://www.npmjs.com/package/co2-monitor) by [maddindeiss](https://github.com/maddindeiss/co2-monitor).
+The program part for reading the data from the co2 sensor in the ioBroker-adapter base on code by [maddindeiss](https://github.com/maddindeiss/co2-monitor).   
 The program part for reading the data from the co2 sensor in the co2mini_udp client base on code by [Hendryk Plötz](https://hackaday.io/project/5301-reverse-engineering-a-low-cost-usb-co-monitor/log/17909-all-your-base-are-belong-to-us)
 
 
@@ -46,7 +46,7 @@ If another ioBroker adapter or application on the ioBroker-server or on the udp-
 Der Adapter unterstützt den Co2-Mini Sensor mit USB Id 04d9:a052, dieser ist unter verschiedenen Produktnamen im Handel zu finden.
 Z.B. [TFA-Dostmann Airco2ntrol mini](https://www.tfa-dostmann.de/produkt/co2-monitor-airco2ntrol-mini-31-5006/) oder der [Co2Mini von co2meter.com](https://www.co2meter.com/products/co2mini-co2-indoor-air-quality-monitor).
 
-Der ioBroker-Adapter basiert auf dem npm Packet [co2-monitor](https://www.npmjs.com/package/co2-monitor) von [maddindeiss](https://github.com/maddindeiss/co2-monitor).   
+Der programmteil zum lesen der Daten vom co2-Sensor im ioBroker-Adapter basiert auf dem Code von [maddindeiss](https://github.com/maddindeiss/co2-monitor).   
 Der Programmteil zum Lesen der Daten vom co2-Sensor im co2mini_udp-Client basiert auf dem Code von [Hendryk Plötz](https://hackaday.io/project/5301-reverse-engineering-a-low-cost-usb-co-monitor/log/17909-all-your-base-are-belong-to-us)
 
 
@@ -81,6 +81,9 @@ Falls ein anderer ioBroker-Adapter oder eine andere Anwendung auf dem ioBroker-S
 
 
 ## Changelog
+
+### 1.0.1
+* (bowao) Dependencies updated to usb 1.6.x
 
 ### 1.0.0
 * (bowao) initial release
