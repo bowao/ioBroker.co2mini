@@ -22,14 +22,14 @@ To be able to run the program, the authorization must be adjusted with:
 
 The program can then be started as follows:
 
-    python /home/pi/python/co2mini_udp-client.py
+    python /home/pi/co2mini_udp-client.py
 
 At the first start, the program asks for the IP address of the ioBroker server and for the ioBroker adapter port.
-These data are stored in the file “co2mini_udp-client.conf” and do not need to be entered each time you run the programm.
+These data are stored in the file “co2mini_udp-client.conf” and do not need to be entered each time you run the programm.   
 If the IP address and/or the port has to be changed, the program can be started with the argument --config and The IP address and port are queried again.
 
 The measured values should then appear in the terminal of the client computer.
-In the ioBroker-adapter, the Co2-Mini sensor is then automatically created with the client IP address.
+In the ioBroker-adapter, the Co2-Mini sensor is then automatically created with the client IP address.   
 Finished!?
 
 Nearly!   
@@ -42,7 +42,7 @@ In order for the client program to run in the background, the program "screen" i
 
 This changes the startup command for the program on the client machine as follows:
 
-    screen -dmS co2mini python /home/pi/python/co2mini_udp-client.py
+    screen -dmS co2mini python /home/pi/co2mini_udp-client.py
 
 To the co2mini session, which is now running in the background, you connect with the following command:
 
@@ -79,7 +79,7 @@ Alternative copy the file “watchdog_co2mini.sh“ from folder “rules_and_too
 
 To be able to run the program, the authorization must be adjusted with:
 
-    chmod 0755 /home/pi/watchdog_co2.sh
+    chmod 0755 /home/pi/watchdog_co2mini.sh
 
 To set up a cronjob, run the following command:
 
@@ -122,14 +122,14 @@ Damit das Programm ausgeführt werden kann, muss die Berechtigung angepasst werd
 
 Das Programm kann dann wie folgt gestartet werden:
 
-    python /home/pi/python/co2mini_udp-client.py
+    python /home/pi/co2mini_udp-client.py
 
 Beim ersten Start fragt das Programm nach der IP-Adresse des ioBroker-Servers und nach dem ioBroker Adapter Port.
-Diese Daten werden in der Datei "co2mini_udp-client.conf gespeichert und müssen dann nicht bei jedem Start eingegeben werden.
+Diese Daten werden in der Datei "co2mini_udp-client.conf gespeichert und müssen dann nicht bei jedem Start eingegeben werden.   
 Soll die IP-Adresse und/oder der Port geändert werden, so kann das Programm mit dem Argument --config gestartet werden und die IP-Adresse und der Port werden erneut abgefragt.
 
 Danach sollten die Messwerte im Terminal des Client-Rechners erscheinen.
-Im ioBroker Adapter wird der Co2-Mini Sensor dann automatisch mit der Client IP-Adresse angelegt.
+Im ioBroker Adapter wird der Co2-Mini Sensor dann automatisch mit der Client IP-Adresse angelegt.  
 Fertig!?
 
 
@@ -143,7 +143,7 @@ Damit das Client-Programm im Hintergrund läuft, wird das Programm "screen" ben�
 
 Damit ändert sich der Startbefehl für das Programm auf dem Client-Rechner folgendermaßen:
 
-    screen -dmS co2mini python /home/pi/python/co2mini_udp-client.py
+    screen -dmS co2mini python /home/pi/co2mini_udp-client.py
 
 Auf die jetzt im Hintergrund laufende co2mini-Session verbindet man sich mit folgendem Befehl:
 
@@ -179,7 +179,7 @@ Alternativ kann die Datei "watchdog_co2mini.sh" aus dem Ordner "rules_and_tools"
 
 Damit das Programm ausgeführt werden kann, muss die Berechtigung angepasst werden:
 
-    chmod 0755 /home/pi/watchdog_co2.sh
+    chmod 0755 /home/pi/watchdog_co2mini.sh
 
 Zum Einrichten eines cronjobs muss folgender Befehl ausgeführt werden:
 
